@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	font-family: 'Noto Sans KR', sans-serif !important;
+}
+#main {
+	height: 100vh;
+}
+.caption {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
