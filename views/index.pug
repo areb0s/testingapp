@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	.container.d-flex.flex-column.h-100
+		.mx-auto.my-auto.col-lg-4.col-md-6
+			.card
+				.card-body
+					if userID
+						h2.mb-3= userID
+					a(href="/users/login") 로그인
+					a(href="/users/register") 회원가입
+					a(href="/users/logout") 로그아웃
